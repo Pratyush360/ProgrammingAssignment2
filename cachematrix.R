@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 ##this function search for the inverse of given matrix if itis not previously calculated then
-##get matrix from above function,calculate its inverse and set the value in above function using setinverse
+##get matrix from above function, calculate its inverse and set the value in above function using setinverse
 cacheSolve <- function(x, ...) {
   i <- x$getinverse()
   if (!is.null(i)) {
